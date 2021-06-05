@@ -8,5 +8,5 @@
 
 **EXECUTIVE SUMMARY**
 
-This project provides a web site visualization of a weather analysis project. 
+This project provides a web site visualization of a weather analysis project complete earlier in the bootcamp. 
 
