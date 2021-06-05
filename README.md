@@ -2,7 +2,7 @@
 
  <table style="width:100%">
   <tr valign="top">
-    <th><img height="600" alt="Home Page Screenshot" src="https://github.com/kennethcandersen/sqlalchemy-challenge/blob/main/output_charts/average_rainfall.png"></th>
+    <th><img height="600" alt="Home Page Screenshot" src="https://github.com/kennethcandersen/Web-Design-Challenge/blob/main/assets/home_page_screenshot.png"></th>
   </tr>
 </table> 
 
