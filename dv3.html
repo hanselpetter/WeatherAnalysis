@@ -36,9 +36,15 @@
                 </ul>
               </li>
               
-              <li class="nav-item">
-                <a class="nav-link" href="comparisons.html">Data Visualization Comparisons</a>
-              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Data Visualization Comparisons</a>
+      
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="comparisons1.html">Global</a></li>
+                  <li><a class="dropdown-item" href="comparisons2.html">By Hemisphere</a></li>
+                </ul>
+              </li>             
                   
               <li class="nav-item">
                 <a class="nav-link" href="data_source.html">Data Source</a>
@@ -51,16 +57,25 @@
 
       <div class="container main_container">
 
-        <div class="row">
+        <div class="row justify-content-evenly">
 
-          <div class="col-md-2 bg-white m-2">
-            <h4 class="text-center py-5">Latitude vs Cloudiness</h4>
-            <p>The correlation between cloudiness and distance from the equator is negligible</p>
+          <div class="col-md-11 bg-white m-2">
+            <h4 class="text-center py-2">Latitude vs Cloudiness</h4>
+            <p>The correlation between cloudiness and distance from the equator is negligible.</p>
           </div>
-          
-          <div class="col-md-9 bg-white m-2">
-          <img src="assets/dv3.png"  class="w-100 rounded mx-auto d-block" alt="Data Visualization 1"></a>
+        </div>
+        <div class="row justify-content-evenly">          
+          <div class="col-md-5 bg-white m-2">
+          <img src="assets/dv3.png"  class="w-100 p-3 rounded mx-auto d-block" alt="Data Visualization 1"></a>
           </div>
+
+          <div class="col-md-5 bg-white m-2">
+            <img src="assets/dv7.png"  class="w-100 p-3 rounded mx-auto d-block" alt="Data Visualization 1"></a>
+            </div>
+
+        </div>
+      </div>
+   
 
         </div>
       </div>
