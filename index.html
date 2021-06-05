@@ -15,39 +15,45 @@
   <body class="bg-secondary">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Overview: Latitude vs Climate Conditions</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-lite"></span>
-          </button>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Overview: Latitude vs Climate Conditions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-lite"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Data Visualizations</a>
-      
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="dv1.html">Max Temperature</a></li>
-                  <li><a class="dropdown-item" href="dv2.html">Humidity</a></li>
-                  <li><a class="dropdown-item" href="dv3.html">Cloudiness</a></li>
-                  <li><a class="dropdown-item" href="dv4.html">Wind Speed</a></li>
-                </ul>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="comparisons.html">Data Visualization Comparisons</a>
-              </li>
-                  
-              <li class="nav-item">
-                <a class="nav-link" href="data_source.html">Data Source</a>
-              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Data Visualizations</a>
+    
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="dv1.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="dv2.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="dv3.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="dv4.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Data Visualization Comparisons</a>
+    
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="comparisons1.html">Global</a></li>
+                <li><a class="dropdown-item" href="comparisons2.html">By Hemisphere</a></li>
+              </ul>
+            </li>             
+                
+            <li class="nav-item">
+              <a class="nav-link" href="data_source.html">Data Source</a>
+            </li>
 
-            </ul>
-          </div>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
       <div class="container main_container d-flex flex-column min-vh-100">
 
@@ -56,20 +62,31 @@
           <div class="col-md-8 bg-white m-2">
             <h2 class="h2_center">Latitude vs. Weather Conditions Analysis</h2>
             <hr>
-            <img src="assets/dv1.png" class="w-100 p-3 rounded float-start" alt="Data Visualization 1">
-            <h4 class="text-center">SUMMARY</h3>
+              <div class="row flex-nowrap">
+          
+                <div class="col-md-5 bg-white mx-2">
+            <img src="assets/dv1.png" class="w-100 m-3 p-3 border rounded float-start justify-content-right" alt="Data Visualization 1">
+                </div>
+              
+                <div class="col-md-6 bg-white mx-2">  
+
+                <h4 class="text-center">SUMMARY</h4>
                 
-            <p>This project analyzed visualized the relationship between 
+                <p>This project analyzed visualized the relationship between 
                 latitude and 4 weather conditions:</p>
-            <ol>
-            <li>Temperature</li>
-            <li>Humidity</li>
-            <li>Cloudiness</li>
-            <li>Wind speed</li>
-        </ol>
-            <h4 class="text-center">CONCLUSIONS</h3>
+                <ul >
+                  <li>Temperature</li>
+                  <li>Humidity</li>
+                  <li>Cloudiness</li>
+                  <li>Wind speed</li>
+                </ul>
+              </div>
+              </div>
+              <div class="row flex-nowrap">
+                <div class="col-md-11 bg-white mx-2">  
+                <h4 class="text-center">CONCLUSIONS</h4>
             
-                <h6>1. The correlation between temperature and distance from the 
+                <h5>1. The correlation between temperature and distance from the 
                     equator (i.e., positive and negative latitudes) is very strong</h5>
                 <p>The correlation coefficient r value is consistently above .8. 
                     This supports the assertion that city climates get warmer as you 
@@ -77,7 +94,7 @@
                     <p>All other weather conditions (humidity, cloudiness and wind speed) have 
                     negligible correlations (r &#60 .2).</p>
                 
-                    <h6>2. By hemisphere, temperature is still the only weather variable with a 
+                    <h5>2. By hemisphere, temperature is still the only weather variable with a 
                         strong correlation to latitude</h5> 
                 
                     <p>Though in some random samples, correlation may be 
@@ -85,7 +102,7 @@
                         value between .6 and .8) while it remains very strong (r > .8) 
                         in the Northern Hemisphere.</p>
                 
-                    <h6>3. By hemisphere, looking at random samples, correlations tend to 
+                    <h5>3. By hemisphere, looking at random samples, correlations tend to 
                         be a little stronger in one hemisphere than the other.</h5>
                 
                     <p>For example, for the latest random sample that this notebook 
@@ -93,18 +110,24 @@
                         speed was low (correlation coefficient r value between .2 and .4) 
                         in the Southern Hemisphere, while it was negligible (r &#60 .2) 
                         in the Northern Hemisphere.</p>
-
+                      </div>    
+                    </div> 
           </div>
           
-          <div class="col-md-4 bg-white m-2">
+          
+          <div class="col-md-3 bg-white m-2">
             <h2 class="h2_center">Visualizations</h2>
             <hr>
             <h6 class="text-center">Click on one to see it:</h6>
-            <a href="dv1.html"><img src="assets/dv1.png"  class="w-75 rounded mx-auto d-block" alt="Data Visualization 1"></a>
-            <a href="dv2.html"><img src="assets/dv2.png"  class="w-75 rounded mx-auto d-block" alt="Data Visualization 2"></a>
-            <a href="dv3.html"><img src="assets/dv3.png"  class="w-75 rounded mx-auto d-block" alt="Data Visualization 3"></a>
-            <a href="dv4.html"><img src="assets/dv4.png"  class="w-75 rounded mx-auto d-block" alt="Data Visualization 4"></a>
-            </div>
+            <a href="dv1.html"><img src="assets/dv1.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 1"></a>
+            <a href="dv2.html"><img src="assets/dv2.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 2"></a>
+            <a href="dv3.html"><img src="assets/dv3.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 3"></a>
+            <a href="dv4.html"><img src="assets/dv4.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 4"></a>
+            <a href="dv1.html"><img src="assets/dv5.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 1"></a>
+            <a href="dv2.html"><img src="assets/dv6.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 2"></a>
+            <a href="dv3.html"><img src="assets/dv7.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 3"></a>
+            <a href="dv4.html"><img src="assets/dv8.png"  class="w-50 m-2 border rounded mx-auto d-block" alt="Data Visualization 4"></a> 
+          </div>
         </div>
         
         
