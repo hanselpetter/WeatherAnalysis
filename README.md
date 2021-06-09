@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 
-<a target=”_blank href="https://kennethcandersen.github.io/Web-Design-Challenge/index.html"><img width="900" alt="Home Page Screenshot" src="https://github.com/kennethcandersen/Web-Design-Challenge/blob/main/assets/home_page_screenshot.png"></a>
+<a target="_blank" href="https://kennethcandersen.github.io/Web-Design-Challenge/index.html"><img width="900" alt="Home Page Screenshot" src="https://github.com/kennethcandersen/Web-Design-Challenge/blob/main/assets/home_page_screenshot.png"></a>
 
 **EXECUTIVE SUMMARY**
 
