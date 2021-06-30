@@ -4,7 +4,7 @@
 
 **EXECUTIVE SUMMARY**
 
-This project provides a web site visualization of a weather analysis project completed earlier in the bootcamp.
+This project provides a web site visualization of a weather analysis project completed previously.
 
 [View it live]( https://kennethcandersen.github.io/Weather-Analysis-Web-Site/) 
 
