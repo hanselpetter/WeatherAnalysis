@@ -8,3 +8,5 @@ This project provides a web site visualization of a weather analysis project com
 
 [View it live]( https://kennethcandersen.github.io/Weather-Analysis-Web-Site/) 
 
+Detail about the weather analysis conducted in Jupyter Notebook with API data retrieval is available in this [repository](https://github.com/kennethcandersen/automated-vacation-planner): https://github.com/kennethcandersen/automated-vacation-planner
+
