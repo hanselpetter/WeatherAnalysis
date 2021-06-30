@@ -6,5 +6,5 @@
 
 This project provides a web site visualization of a weather analysis project completed earlier in the bootcamp.
 
-[View it live](https://kennethcandersen.github.io/Web-Design-Challenge/index.html) 
+[View it live]( https://kennethcandersen.github.io/Weather-Analysis-Web-Site/) 
 
